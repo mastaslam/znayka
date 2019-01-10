@@ -3,7 +3,7 @@ title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ru"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
@@ -17,12 +17,12 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Home"
+    name = "Главная"
     url  = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
+    name = "Блог"
     url  = "/blog/"
     weight = 2
 
@@ -33,7 +33,7 @@ paginate = 10
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
+    name = "Контакты"
     url  = "/contact/"
     weight = 4
 
@@ -41,15 +41,15 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    name = "VK"
+    url = "https://vk.com/znaika62"
+    pre = "<i class='fa fa-2x fa-vk'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
+    name = "Instagram"
+    url = "https://www.instagram.com/znaika62/"
+    pre = "<i class='fa fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -60,7 +60,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "znaika62@mail.ru"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
@@ -88,10 +88,10 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "znaika62@mail.ru"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Частный детский центр Знайка-Академия Детства</p>"
+    copyright = "Copyright (c) 2019, Знайка; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -116,7 +116,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Анна +7 (953) 735-16-82 или znaika62@mail.ru.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
